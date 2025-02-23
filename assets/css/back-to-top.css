@@ -1,0 +1,41 @@
+/* Base style for the Back to Top button */
+#backmeta-back-to-top {
+    display: none; /* Hidden until scrolling */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 999;
+    padding: 10px 15px;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.3s, background-color 0.3s;
+    color: #fff;
+    text-align: center;
+}
+
+/* Icon styling */
+#backmeta-back-to-top .backmeta-icon {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Vertical text styling */
+#backmeta-back-to-top .vertical-text {
+    display: block;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-top: 5px;
+}
+
+/* Horizontal text styling */
+#backmeta-back-to-top .horizontal-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    writing-mode: horizontal-tb;
+}
+
+/* Hover effect */
+#backmeta-back-to-top:hover {
+    opacity: 1;
+}
